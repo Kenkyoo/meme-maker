@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+@import 'url(../assets/hover/hover.css)';
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Rubik", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    background-color: #264653;
+    color: #e9c46a;
+}
+
+header {
+    margin: 20px auto;
+}
+
+.menu {
+    background-color: #e76f51 !important;
+}
+
+h2 {
+    color: #e9c46a !important;
+    margin-top: 15px;
+}
+
+h3 {
+    color: white !important;
+}
+
+.card {
+    cursor: pointer;
+}
+
+.list {
+    max-width: 400px;
+    margin: 15px auto;
+    width: 100%;
+}
+
+.item {
+    color: #f4a261;
+}
+
+.fa-meetup {
+    display: block;
+    font-size: 60px;
+}
+
+.segment {
+    margin: 40px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px !important;
+}
+
+.meme {
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+.search {
+    display: flex !important;
+    justify-content: center !important;
+}
+
+.prompt {
+    width: 400px !important;
+    margin: 30px auto !important;
+}
